@@ -95,12 +95,14 @@
       "Path": "System1/System1_Get_Excel_File.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "File&Sequence_6",
         "months&Sequence_1",
         "i&Sequence_2",
         "month&Sequence_3",
         "IsExists&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_PathToMonthReports",
         "in_TaxId"
       ],
       "ConstantsSectionElementsOrder": [],
@@ -138,6 +140,20 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TaxId&Sequence_1",
+        "UploadId&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
