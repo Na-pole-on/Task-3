@@ -27,6 +27,7 @@
       "Path": "System1/System1_Login.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Credentials&Sequence_15",
         "Password&TryCatch_1",
         "Username&TryCatch_1",
         "IsAuth&TryCatch_1",
