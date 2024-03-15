@@ -31,6 +31,52 @@
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Password&TryCatch_1",
+        "Username&TryCatch_1",
+        "IsAuth&TryCatch_1",
+        "IsExists&TryCatch_1",
+        "Password&Sequence_11",
+        "Password&Sequence_1",
+        "Email&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_System1URL",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/Send message to email.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Password&Sequence_1",
+        "Email&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Exception",
+        "Subject",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_ExtractClientInformation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UserInformation&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TaxId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
