@@ -119,7 +119,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="EmailCredentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Task-3" sap:VirtualizedContainerService.HintSize="387.2,143.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Email]" />
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="in_Config(&quot;EmailCredentials&quot;).ToString" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Task-3" sap:VirtualizedContainerService.HintSize="387.2,143.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Email]" />
     <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="[Exception.Message]" DisplayName="Send SMTP Mail Message" Email="[Email]" EnableSSL="True" sap:VirtualizedContainerService.HintSize="387.2,148.8" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Port="[Int32.Parse(in_Config(&quot;GmailPort&quot;).ToString())]" SecureConnection="Auto" SecurePassword="[Password]" Server="[in_Config(&quot;GmailServer&quot;).ToString()]" Subject="[Subject]" To="jmathhhew@gmail.com">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />

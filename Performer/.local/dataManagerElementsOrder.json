@@ -40,9 +40,7 @@
         "Username&TryCatch_1",
         "IsAuth&TryCatch_1",
         "IsExists&TryCatch_1",
-        "Password&Sequence_11",
-        "Password&Sequence_1",
-        "Email&Sequence_1"
+        "Password&Sequence_11"
       ],
       "ArgumentsSectionElementsOrder": [
         "in_System1URL",
@@ -82,6 +80,7 @@
       "Path": "System1/System1_Upload_Excel_File.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "File&Sequence_3",
         "Text&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -104,6 +103,41 @@
       "ArgumentsSectionElementsOrder": [
         "in_TaxId"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_UpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Comment",
+        "in_Status"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Close.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
