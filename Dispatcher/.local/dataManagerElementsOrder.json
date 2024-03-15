@@ -158,18 +158,6 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "System1/System1_ExtractClientInformation.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "UserInformation&Sequence_3"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "out_TaxId"
-      ],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
       "Path": "System1/System1_Navigate_To_Dashboard.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
@@ -196,17 +184,6 @@
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
         "in_System1Url"
-      ],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "System1/System1_UpdateWorkItem.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [
-        "in_Comment",
-        "in_Status"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

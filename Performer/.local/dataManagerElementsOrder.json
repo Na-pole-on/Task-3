@@ -77,6 +77,35 @@
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Upload_Excel_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Text&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Result_File",
+        "in_TaxId",
+        "out_UploadId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Get_Excel_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "months&Sequence_1",
+        "i&Sequence_2",
+        "month&Sequence_3",
+        "IsExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TaxId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
