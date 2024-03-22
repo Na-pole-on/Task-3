@@ -80,7 +80,6 @@
       "Path": "System1/System1_Upload_Excel_File.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "File&Sequence_3",
         "Text&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -153,6 +152,48 @@
       "ArgumentsSectionElementsOrder": [
         "in_TransactionItem",
         "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_ExtractWIsDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Text&Sequence_1",
+        "WorkItemDetailsFromSite&Sequence_1",
+        "WorkItemDetails&Sequence_1",
+        "IsNext&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_TransactionData",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Remove_Ecxel_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_PathToDelete"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/System1_Join_Excel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DateTable&Sequence_1",
+        "ResultDateTable&Sequence_1",
+        "Text&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TaxId",
+        "in_Temp",
+        "in_Output_Result"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
